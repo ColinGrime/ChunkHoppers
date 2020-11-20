@@ -1,0 +1,26 @@
+# -= Chunk Hoppers =-
+# Created by Scill
+#
+chunk-hoppers:
+  # Name of the chunk hopper.
+  name: '&cChunk Hopper'
+  # Time between each ground item pull (in ticks!).
+  pull-speed: 80
+  # Message when you place down a chunk hopper.
+  message-on-place: 'You have placed down a Chunk Hopper!'
+  # Message when you destroy a chunk hopper.
+  message-on-break: 'You have broken a Chunk Hopper!'
+
+admin:
+  # The Chunk Hoppers help message.
+  command-help:
+    - '&2/hoppers give [player] <amount> &a(give players chunk hoppers!)'
+    - '&2/hoppers reload &a(reloads the plugin)'
+  # Called when the plugin is reloaded.
+  reload: '&aChunkHoppers has been reloaded!'
+
+errors:
+  # Called when there is no valid player for the /hoppers give command.
+  no-valid-player: '&cThere is no online player named %player%!'
+  # Called if a player attempts to reload the plugin without permission.
+  insufficient-permissions: '&cYou do not have permission to this command.'

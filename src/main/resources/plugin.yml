@@ -1,0 +1,16 @@
+name: ${project.name}
+main: ${main.class}
+version: ${project.version}
+author: Scill
+commands:
+   chunkhoppers:
+      description: Main command for the ChunkHoppers plugin.
+      usage: /<command>
+      aliases: [chunkhopper, hoppers, hopper]
+permissions:
+   chunkhoppers.give:
+      description: Give people chunk hoppers!
+      default: op
+   chunkhoppers.reload:
+      description: Reloads the ChunkHoppers plugin.
+      default: op
